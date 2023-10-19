@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header">
+                <div class="header-1">
+                    <h1>E <span class="header-span">Food</span></h1>
+                    <div class="header-a">
+                        <a href="#" class="header-nav">Home</a>
+                        <a href="#">Service</a>
+                        <a href="#">Top cities</a>
+                        <a href="#">Contract</a>
+                    </div>
+                 <div class="header-img">
+                    <ion-icon name="search-outline" class="header-icon"></ion-icon>
+                    <img src="./images/header-img-2.svg" alt="" class="header-img-2">
+                    <img src="./images/header-img-3.png" alt="" class="header-img-3">
+                 </div>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hero id="hero">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-block">
+                    <div class="hero-1">
+                        <h1>super fast <span class="hero-span"> Food <br>
+                            delivery</span> service</h1>
+                            <p>We provide super fast-delivery service. Let’s use our <br> services right now and get discounts of up to 50%</p>
+                    </div>
+                          <div class="hero-2">
+                            <button>Explore Food</button>
+                            <a href="#">Download App</a>
+                          </div>
+                          <div class="hero-3">
+                            <img src="./images/hero-img-1.png" alt="" class="hero-img-1">
+                            <img src="./images/hero-img-2.png" alt="" class="hero-img-2">
+                            <img src="./images/hero-img-3.png" alt="" class="hero-img-3">
+                            <img src="./images/hero-img-4.png" alt="" class="hero-img-4">
+                            <img src="./images/hero-img-5.png" alt="" class="hero-img-5">
+                            <img src="./images/hero-img-6.png" alt="" class="hero-img-6">
+                          </div>
+                </div>
+            </div>
+        </div>
+    </hero>
+    <section id="burger">
+        <div class="container">
+            <div class="burger">
+                <div class="burger-1">
+                    <h1>Our popular <span class="burger-span">Category</span> </h1>
+                </div>
+              <div class="burger-blocks">
+                <div class="burger-block">
+                    <div class="burger-2">
+                    </div>
+                </div>
+                <div class="burger-block">
+                    <div class="burger2">
+                    </div>
+                </div>
+                <div class="burger-block">
+                    <div class="burger3">
+                    </div>
+                </div>
+                <div class="burger-block">
+                    <div class="burger4">
+                    </div>
+                </div>
+                <div class="burger-block">
+                    <div class="burger5">
+                    </div>
+                </div>
+              </div>
+              <div class="burger-3">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./images/burger-img1.png" alt="" class="burger-img1">
+                        <img src="./images/Star (1).png" alt="" class="star-1">
+                        <h3>Cheeseburger With Salad</h3>
+                        <h2>$18.00</h2>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/burger-img2.png" alt="" class="burger-img1">
+                        <img src="./images/Star.png" alt="" class="star-1">
+                        <h3>Beef Burger</h3>
+                        <h2>$15.00</h2>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/burger-img3.png" alt="" class="burger-img1">
+                        <img src="./images/Star (1).png" alt="" class="star-1">
+                        <h3>Royel Cheeseburger</h3>
+                        <h2>$16.00</h2>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/burger-img4.png" alt="" class="burger-img1">
+                        <img src="./images/Star (1).png" alt="" class="star-1">
+                        <h3>Black Gambugrer </h3>
+                        <h2>$14.00</h2>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/burger-img5.png" alt="" class="burger-img1">
+                        <img src="./images/Star (1).png" alt="" class="star-1">
+                        <h3>Chicken Burger</h3>
+                        <h2>$15.00</h2>
+                        <button>Add to Cart</button>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                      },
+                      breakpoints: {
+                        "@0.00": {
+                          slidesPerView: 1,
+                          spaceBetween: 10,
+                        },
+                        "@0.75": {
+                          slidesPerView: 2,
+                          spaceBetween: 20,
+                        },
+                        "@1.00": {
+                          slidesPerView: 3,
+                          spaceBetween: 40,
+                        },
+                        "@1.50": {
+                          slidesPerView: 4,
+                          spaceBetween: 50,
+                        },
+                      },
+                    });
+                  </script> 
+              </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    </section>
+    <section id="home">
+        <div class="container">
+            <div class="home">
+               <div class="home-block">
+                <div class="home-1">
+                    <img src="./images/home-img-1.png" alt="">
+                </div>
+                <div class="home-2">
+                    <h1>Stay <span class="home-span">at home, we will <br> Provide</span> good food</h1>
+                    <p>We provide tasty food and superfast delivery at <br> your home.  Let’s use our services right now and <br> get discounts of up to 50%.</p>
+                    <div class="home-3">
+                        <img src="./images/home-img-2.svg" alt="">
+                        <h4>fasted delivery in 30 Minutes</h4>
+                    </div>
+                    <div class="home-3">
+                        <img src="./images/home-img-5.png" alt="">
+                        <h4>fasted delivery in 30 Minutes</h4>
+                    </div>
+                    <div class="home-3">
+                        <img src="./images/home-img-6.png" alt="">
+                        <h4>fasted delivery in 30 Minutes</h4>
+                    </div>
+                    <button>See more</button>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section id="top">
+        <div class="container">
+            <div class="top">
+                <div class="top-1">
+                    <h1>Top Food <span class="top-span">restaurant</span></h1>
+                </div>
+                <div class="top-block">
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-1.png" alt="">
+                            <p>Blaze Pizza</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon> 11.00 AM - 10.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-2.png" alt="">
+                            <p>Pizza Ranch</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon>09.00 AM - 10.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-3.png" alt="">
+                            <p>	Dion’s Pizza Hut</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon> 10.00 AM - 12.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-block">
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-4.png" alt="">
+                            <p>Royel Burger</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon> 11.00 AM - 10.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-5.png" alt="">
+                            <p>KFC Restaurant</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon>09.00 AM - 10.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="top-blocks">
+                        <div class="top-2">
+                            <img src="./images/top-img-6.png" alt="">
+                            <p>	Star Food</p>
+                           <div class="top-3">
+                            <span class="top-span-1"><ion-icon name="time-outline"></ion-icon>10.00 AM - 12.00 PM</span>
+                            <button><img src="./images/top-icon.svg" alt=""></button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="play">
+        <div class="container">
+            <div class="play">
+               <div class="play-block">
+                <div class="play-1">
+                    <h1>Download  Our <span class="play-span">Mobile App</span></h1>
+                    <p>It's all at your fingertips -- the restaurants you love. Find <br> the right food to suit your mood, and make the first bite <br> last. Go ahead, download app and get 50% discount</p>
+                    <div>
+                        <img src="./images/play-img-1.png" alt="">
+                        <img src="./images/play-img-2.png" alt="" class="play-img-2">
+                    </div>
+                </div>
+                <div class="play-2">
+                    <img src="./images/play-img-3.png" alt="" class="play-img-3">
+                    <img src="./images/play-img-4.png" alt="" class="play-img-4">
+                    <img src="./images/play-img-5.png" alt="" class="play-img-5">
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section id="acer">
+        <div class="container">
+            <div class="acer">
+                    <div class="acer-1">
+                        <h1>What Our Client Are <span class="acer-span">Saying </span></h1>
+                    </div>
+                    <div class="acer-block">
+                        <div class="acer-2">
+                            <img src="./images/acer-img-1.png" alt="">
+                        </div>
+                        <div class="acer-3">
+                            <img src="./images/acer-img-2.png" alt="" class="acer-img-2">
+                            <p>EFood has the most intriguing food order system in the <br> country. UI in both their app and web Is very simple and <br> easy to use, enhancing the UX. Their delivery men are also <br> quite professional and knows the neighborhood well. Till <br> now I never had to guide them to my address for delivery; </p>
+                            <h3>Anglina Jole</h3>
+                            <div class="qwe"> 
+                                <span>Food lover</span>
+                               <div class="vbn">
+                                <ion-icon name="arrow-back-outline" class="open"></ion-icon>
+                                <ion-icon name="arrow-forward-outline" class="open"></ion-icon>
+                               </div>
+                            </div>
+                            <img src="./images/acer-img-3.png" alt="" class="acer-img-3">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="enter">
+        <div class="container">
+            <div class="enter">
+                <div class="enter-block">
+                    <div class="enter-1">
+                        <img src="./images/enter-img-1.png" alt="">
+                        <img src="./images/enter-img-2.png" alt="" class="enter-img-2">
+                        <img src="./images/enter-img-3.png" alt="" class="enter-img-2">
+                        <img src="./images/enter-img-4.png" alt="" class="enter-img-4">
+                        <h1>Subscribe to get the Latest Offer</h1>
+                        <p>Get our daily updates by subscribing to our newspaper, please drop your email below</p>
+                        <input type="text" placeholder="Enter your email addres">
+                        <button> <img src="./images/enter-img-5.png" alt="">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-block">
+                    <div class="footer-1">
+                        <h1>E<span class="footer-span">Food</span></h1>
+                        <p><ion-icon name="location-outline"></ion-icon>  Dhaka, Bangladesh</p>
+                        <p><ion-icon name="call-outline"></ion-icon>  0943833399</p>
+                        <p><ion-icon name="mail-outline"></ion-icon>  support@efood.com</p>
+                        <img src="./images/footer-img-1.png" alt="">
+                    </div>
+                    <div class="footer-2">
+                        <h3>Service</h3>
+                        <p> How it works</p>
+                        <p> Home delivery</p>
+                        <p> Prducts</p>
+                        <p>Menu</p>
+                    </div>
+                    <div class="footer-2">
+                        <h3>Company</h3>
+                        <p> About Us</p>
+                        <p> News</p>
+                        <p>Our trusted partner</p>
+                        <p>New users FAQ</p>
+                    </div>
+                    <div class="footer-2">
+                        <h3>Supports</h3>
+                        <p> Help center</p>
+                        <p> Feedbcak</p>
+                        <p>Contact us</p>
+                        <p>Terms conditins</p>
+                    </div>
+                    <div class="footer-2">
+                        <h3>Resources</h3>
+                        <p> Download app</p>
+                        <p> Blog</p>
+                        <p> What’s new</p>
+                        <p>Sitemap</p>
+                    </div>
+                </div>
+            </div>
+        <div class="tab"> </div>
+            <div class="footer-3">
+                <span>© 2021 EFood - All rights reserved.</span>
+              <div class="footer-4">
+                <p>Privacy</p>
+                <p>Security</p>
+                <p>Terms</p>
+              </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
